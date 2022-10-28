@@ -1,6 +1,6 @@
 # Utto-ECF-2022
 
-#Introduction 
+# Introduction 
 
 Utto est une API de gestion en ligne d’entreprise,
 qui permet de géré les franchisés et salles de sports
@@ -28,7 +28,7 @@ Ce projet m'a été demandé dans le cadre de l'évaluation en cours de formatio
 
 Veuillez vous rendre sur le lien ci-dessous afin d'accèdé au projet : https://utto-projet.herokuapp.com/index.php
 
-#connexion 
+# connexion 
 
 Afin de vous connecté vous avez besoin d'identifiants, voici les différents roles et identifiants pour y accéder : 
 
@@ -44,7 +44,7 @@ Gérant de salle de sport :
 Identifiant : Metz1
 Mot de passe : 123456
 
-#Complément :
+# Complément :
 Vous trouverez dans le dossier ANNEXE les documents suivants :
 • La charte Graphique 
 • La documentation technique
