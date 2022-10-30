@@ -2,7 +2,7 @@
 
 #Tutoriel d'utilisation : 
 
-https://scribehow.com/page/utilisation_UTTO__pYmkJ9LqSjiA0Y44AZKyKg
+Annexe : Tutoriel d'utilisation.
 
 # Introduction 
 
