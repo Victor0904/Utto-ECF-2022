@@ -55,40 +55,6 @@ body {
   left: 45px;
 }
 
-/* .all{
-display: flex;
-align-items: center;
-flex-direction: column;
-}
-.first {
-  display: flex;
-}
-
-.second {
-  display: flex;
-}
-
-.third {
-  display: flex;
-}
-
-.fourth {
-  display: flex;
-}
-
-.fifth {
-  display: flex;
-}
-
-.f-one {
-  display: block;
-}
-
-.f-two {
-  display: block;
-
-}
- */
 .box12 {
   margin-bottom: 10px;
   display: flex;
@@ -103,7 +69,7 @@ flex-direction: column;
   align-items: center;
   border: solid;
   width: 40%;
-  height: 60px;
+  height: 75px;
 }
 
 .box2 {
@@ -112,7 +78,7 @@ flex-direction: column;
   align-items: center;
   border: solid;
   width: 40%;
-  height: 60px;
+  height: 75px;
 }
 
 .separeted {
@@ -215,6 +181,7 @@ p {
 @media only screen and (max-width: 637px) {
 
   p {
+    width: 60%;
     margin-left: 5px;
     font-size: 18px;
   }
@@ -226,6 +193,9 @@ p {
   .box2 {
     width: 80%;
   }
+  input{
+    width: 90%;
+  }
 }
 
 
@@ -233,6 +203,7 @@ p {
 
 
 .btn-ok {
+  cursor: pointer;
   margin-left: 20px;
   text-decoration: none;
   padding: 10px;

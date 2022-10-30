@@ -170,7 +170,7 @@ foreach ( $res as $row ) {
          onclick="JsClientHallPermActiverDesactiver('<?=$nInstallId?>','<?=$nClientId?>','<?=$nBranchId?>','drink_dispenser','distributeur de boisson',this)"/>
         <span></span>
       </label>
-      <p>distributeur de boisson</p>
+      <p>Distributeur de boisson</p>
     </div>
 
     <div class="item">
@@ -188,7 +188,7 @@ foreach ( $res as $row ) {
         onclick="JsClientHallPermActiverDesactiver('<?=$nInstallId?>','<?=$nClientId?>','<?=$nBranchId?>','customer_portal','portail client',this)"/>
       <span></span>
     </label>
-      <p>portail client</p>
+      <p>Portail client</p>
     </div>
 
     <div class="item">
@@ -197,7 +197,7 @@ foreach ( $res as $row ) {
         onclick="JsClientHallPermActiverDesactiver('<?=$nInstallId?>','<?=$nClientId?>','<?=$nBranchId?>','entrance_turnstile','tourniquet d\'entrée',this)"/>
       <span></span>
     </label>
-      <p>tourniquet d'entrée</p>
+      <p>Tourniquet d'entrée</p>
     </div>
 
     <div class="item">
@@ -206,7 +206,7 @@ foreach ( $res as $row ) {
        onclick="JsClientHallPermActiverDesactiver('<?=$nInstallId?>','<?=$nClientId?>','<?=$nBranchId?>','discovery_pack','pack de découverte',this)"/>
       <span></span>
     </label>
-     <p>pack de découverte</p>
+     <p>Pack de découverte</p>
     </div>
 
     <div class="item">
@@ -215,7 +215,7 @@ foreach ( $res as $row ) {
        onclick="JsClientHallPermActiverDesactiver('<?=$nInstallId?>','<?=$nClientId?>','<?=$nBranchId?>','email_service','service emailing',this)"/>
       <span></span>
     </label>
-     <p>service emailing</p>
+     <p>Service emailing</p>
     </div>
 
     <div class="item">
@@ -224,7 +224,7 @@ foreach ( $res as $row ) {
        onclick="JsClientHallPermActiverDesactiver('<?=$nInstallId?>','<?=$nClientId?>','<?=$nBranchId?>','air_conditioned_cloakroom','vestiaire climatisé',this)"/>
       <span></span>
     </label>
-     <p>vestiaire climatisé</p>
+     <p>Vestiaire climatisé</p>
     </div>
 
     <div class="item">
@@ -233,7 +233,7 @@ foreach ( $res as $row ) {
         onclick="JsClientHallPermActiverDesactiver('<?=$nInstallId?>','<?=$nClientId?>','<?=$nBranchId?>','cleaning_staff','personnel de ménage',this)"/>
       <span></span>
     </label>
-      <p>personnel de ménage</p>
+      <p>Personnel de ménage</p>
     </div>
     <div class="item">
       <label class="btn_switch">
@@ -241,7 +241,7 @@ foreach ( $res as $row ) {
         onclick="JsClientHallPermActiverDesactiver('<?=$nInstallId?>','<?=$nClientId?>','<?=$nBranchId?>','indoor_tv','télévision en salle',this)"/>
       <span></span>
     </label>
-      <p>télévision en salle</p>
+      <p>Télévision en salle</p>
     </div>
     <div class="item">
       <label class="btn_switch">
@@ -249,7 +249,7 @@ foreach ( $res as $row ) {
         onclick="JsClientHallPermActiverDesactiver('<?=$nInstallId?>','<?=$nClientId?>','<?=$nBranchId?>','sale_of_protein_bar','vente de barre protéinée',this)"/>
       <span></span>
     </label>
-      <p>vente de barre protéinée</p>
+      <p>Vente de barre protéinée</p>
     </div>
     
   </div> 

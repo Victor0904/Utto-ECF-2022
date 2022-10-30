@@ -18,7 +18,7 @@
     <form action="index.php" method="post">
         <h2 class="text-center">Connexion</h2>       
         <div class="form-group">
-            <input type="login" name="login" class="form-control" placeholder="Email" required="required" autocomplete="off" > 
+            <input type="login" name="login" class="form-control" placeholder="Indentifiant" required="required" autocomplete="off" > 
         </div>
         <div class="form-group">
             <input type="password" name="password" class="form-control" placeholder="Mot de passe" required="required" autocomplete="off" >

@@ -103,13 +103,13 @@ if($bDroitModif){
     <div class="box1">
       <p>Numéro de client : </p>
       <p class="pleft"><strong><input type="text" name="client_id" readonly value="<?=$nClientId?>" /> </strong></p>
-      </div>
     </div>
+  </div>
   
 
   <div class="box12">
     <div class="box1">
-      <p>Nomde salle :</p>
+      <p>Nom de salle :</p>
       <p class="pleft"><input type="text" name="hall_name" value="<?=$sHallName?>" required <?=($bDroitModif?"":"disabled")?>/></p>
     </div>
   </div>
@@ -120,34 +120,34 @@ if($bDroitModif){
       <p class="pleft"><input type="text" name="branch_id" readonly value="<?=$nBranchId?>" required <?=($bDroitModif?"":"disabled")?>/></p>
     </div>
   </div>
-  <div class="box12">
+  
     <?php 
     if ($bNouveau) 
     {?>    
-    
-      <div class="box1">
-        <p>Créer un login :</p>
-        <p class="pleft"><input type="text" name="hall_login" value="<?=$sHallLogin?>" required <?=($bDroitModif?"":"disabled")?>/></p>
+      <div class="box12">  
+        <div class="box1">
+          <p>Créer un login :</p>
+          <p class="pleft"><input type="text" name="hall_login" value="<?=$sHallLogin?>" required <?=($bDroitModif?"":"disabled")?>/></p>
+        </div>
       </div>
-    </div>
-    <div class="box12">
-      <div class="box1">
-        <p>Créer un mot de passe :</p>
-        <p class="pleft"><input type="password" name="hall_pwd" value="<?=$sHallPwd?>" required <?=($bDroitModif?"":"disabled")?>/></p>
+      <div class="box12">
+        <div class="box1">
+          <p>Créer un mot de passe :</p>
+          <p class="pleft"><input type="password" name="hall_pwd" value="<?=$sHallPwd?>" required <?=($bDroitModif?"":"disabled")?>/></p>
+        </div>
       </div>
-    </div>
     <?php 
     } else 
     {?>
-      <div class="box1">
-        <p>login :</p>
-        <p class="pleft"><input type="text" name="hall_login" value="<?=$sHallLogin?>" required disabled/></p>
+      <div class="box12">
+        <div class="box1">
+          <p>login :</p>
+          <p class="pleft"><input type="text" name="hall_login" value="<?=$sHallLogin?>" required disabled/></p>
+        </div>
       </div>
     <?php 
     }?>
-  </div>
-  
-
+    
   <div class="box12">
     <div class="box1">
       <p class="pActive"><strong>Actif :</strong></p>
@@ -156,8 +156,8 @@ if($bDroitModif){
         <?=($bDroitModif?"":"disabled")?>/>
         <span></span>
       </label>
-      </div>
     </div>
+  </div>
 
 
 
@@ -330,4 +330,4 @@ if($bDroitModif){
 <?php
   }
   ?>
-  </div>
+</div>

@@ -89,7 +89,7 @@
             <script src="js/client_hall.js"></script>
             <script src="js/btn-more.js"></script>
             <script src="js/login_screen.js"></script>
-            <title>Connexion</title>
+            <title>Utto</title>
         </head>
         <body>     
             <div id="div_principal">       

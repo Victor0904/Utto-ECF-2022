@@ -19,7 +19,6 @@ if(isset($_GET['perm_lib']))
 if(isset($_GET['action']))
 {
   $nAction = $_GET['action'];
- echo $nClientId;
   if ($nAction == 1) 
   {
     $stmt = $GLOBALS["_bdd"]->prepare("update api_clients set client_active = 1-client_active where client_id = ?");   

@@ -64,7 +64,7 @@ foreach ( $res as $row ) {
       <div class="elements" id="cole">
         <div class="iteme">
           <div>
-            <h4> numéro de client : <?php  echo $row["client_id"]?></h4>
+            <h4> Numéro de client : <?php  echo $row["client_id"]?></h4>
           </div>
           <div>
             <h4><?php echo $row["full_description"] ?></h4>
@@ -102,11 +102,11 @@ foreach ( $res as $row ) {
     <div class="boxGauche">
         <div class="boxGaucheHaut">
             <div class="boxSearch">
-                <input class="cl-search" name="hall_name" id="hall_name"  type="text"   placeholder="nom de salle" 
+                <input class="cl-search" name="hall_name" id="hall_name"  type="text"   placeholder="Nom de salle" 
                 onkeyup="JsClientHallSearchHallName('<?= $nInstallId ?>','<?=$nClientId ?>',this.value,1)">
             </div>
             <div class="boxSearch">
-                <input class="cl-search" name="branch_id" id="branch_id"  type="text"   placeholder="numéro de salle" onkeyup="JsClientHallSearchBranchId('<?= $nInstallId ?>','<?=$nClientId ?>',this.value,1)">
+                <input class="cl-search" name="branch_id" id="branch_id"  type="text"   placeholder="Numéro de salle" onkeyup="JsClientHallSearchBranchId('<?= $nInstallId ?>','<?=$nClientId ?>',this.value,1)">
             </div>
         </div> 
         <div class="boxGaucheBas">
@@ -141,7 +141,7 @@ foreach ( $res as $row ) {
 <div id="div_invisible" style="visibility:hidden"> 
     <input id="noFiltre"  type="text" value="0"/>
 </div>  
-<div id="div_erreur" > 
+<div id="div_erreur" style="visibility:hidden"> 
 </div>   
 
  
