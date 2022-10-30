@@ -30,7 +30,7 @@ Veuillez vous rendre sur le lien ci-dessous afin d'accèdé au projet : https://
 
 # connexion 
 
-Afin de vous connecté vous avez besoin d'identifiants, voici les différents roles et identifiants pour y accéder : 
+Afin de vous connecter vous avez besoin d'identifiants, voici les différents rôles et identifiants pour y accéder : 
 
 Administrateur :
 Identifiant : Bf
